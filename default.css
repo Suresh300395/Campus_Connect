@@ -139,13 +139,13 @@ footer {
 
 /* HOVER EFFECT */
 .links a:hover {
-    background: linear-gradient(90deg, #ff5e00, #0039a3);
+    background: linear-gradient(90deg, #d06c38, #0b5299);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     /* -webkit-text-fill-color: transparent; */
     /* -webkit-text-stroke: 1px #ff5e00; */
-    color: #ff5e00;
+    color: #d06c38;
     transform: scale(1.06);
 }
 
@@ -184,11 +184,11 @@ footer {
     width: auto;
     border-radius: 10px;
     padding: 20px;
-    border: #0360da solid 1px;
+    border: #0b5299 solid 1px;
 }
 
 .logintext {
-    color: #ff5e00 !important;
+    color: #d06c38 !important;
 }
 
 
@@ -216,7 +216,7 @@ footer {
     gap: 8px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    color: #0039a3;
+    color: #0b5299;
     /* default label color */
 }
 
@@ -245,18 +245,18 @@ footer {
 
 
 .custom-radio input[type="radio"]:checked {
-    border-color: #ff5e00;
+    border-color: #d06c38;
 
 }
 
 .custom-radio input[type="radio"]:checked::before {
-    background: #ff5e00;
+    background: #d06c38;
 
 }
 
 
 .custom-radio input[type="radio"]:checked+span {
-    color: #0039a3;
+    color: #0b5299;
     font-weight: 600;
 }
 
@@ -267,7 +267,7 @@ footer {
 
 .custominput {
     background-color: transparent !important;
-    color: #fff !important;
+    color: #0b5299 !important;
 }
 
 input::placeholder {
@@ -277,7 +277,7 @@ input::placeholder {
 
 
 .submit {
-    background-color: #0039a3;
+    background-color: #0b5299;
     color: aliceblue;
     height: 45px;
     width: 160px;
