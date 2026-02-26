@@ -26,7 +26,7 @@
     <header class=''>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 d-flex justify-content-center justify-content-lg-start w-100">
+                <div class="col-12 d-flex justify-content-center justify-content-md-start w-100">
                     <img src="./sources/Small_logo.png" alt="Logo" class="logo-img">
                 </div>
             </div>
@@ -35,18 +35,14 @@
 
     <!-- Main Content -->
     <main class="py-5  d-flex align-items-center">
-        <div class="container-fluid">
+        <div class="container-fluid min-vh-80 d-flex align-items-center justify-content-center">
             <div class="row align-items-center justify-content-between gy-2">
                 <!-- Image Container -->
-                <div class="col-12 col-md-12 col-lg-3 d-flex justify-content-center justify-content-lg-end">
-                    <!-- <img src="./sources/Campus-Connect.png" alt="Image" class="img-fluid campus-image"> -->
-                    <!-- <img src="./sources/Campus-Connect2.png" alt="Image" class="img-fluid campus-image"> -->
-                    <img src="./sources/CC.webp" alt="Image" class="img-fluid campus-image">
+                <div class="col-12 col-md-12 col-lg-3 d-flex justify-content-center justify-content-lg-center">
+                    <img src="./sources/cc3.png" alt="Image" class="img-fluid campus-image">
                 </div>
                 <div
                     class="col-12 col-md-6 col-lg-5 d-flex justify-content-center align-items-center justify-content-lg-center d-none d-md-block">
-                    <!-- <img src="./sources/Campus-Connect.png" alt="Image" class="img-fluid campus-image"> -->
-                    <!-- <img src="./sources/Campus-Connect2.png" alt="Image" class="img-fluid campus-image"> -->
                     <img src="./sources/cctheme.png" alt="Image" class="img-fluid theme-image">
                 </div>
 
@@ -80,7 +76,7 @@
 
                         <div class="mb-3">
                             <div class="input-group">
-                                <span class="input-group-text"><i class="bi bi-lock-fill text-danger"></i></span>
+                                <span class="input-group-text"><i class="bi bi-lock-fill text-success"></i></span>
                                 <input type="password" class="form-control custominput" placeholder="Enter password">
                             </div>
                         </div>
@@ -130,8 +126,9 @@
         let isNight = false; // change true for night mode
 
         // 🎨 Aditya University Colors
-        const ORANGE = "#f57125";
-        const BLUE = "#0047ab";
+        const ORANGE = "#d06c38";
+        const BLUE = "#BE9337"; 
+        <!-- #0b5299 -->
 
         // 🧲 Mouse
         let mouse = { x: 0, y: 0, radius: 160 };

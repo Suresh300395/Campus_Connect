@@ -1,10 +1,12 @@
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; */
     font-family: 'Poppins' !important;
-    margin: 0;
-    height: 100vh;
+    /* margin: 0;
+    height: 100vh; */
+    /* justify-content: center;
+    align-items: center; */
 }
 
 
@@ -18,13 +20,15 @@ canvas {
 
 /* Fullscreen background canvas */
 #particles {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;          /* content ki back lo undali */
-  pointer-events: none; /* mouse events block cheyakudadhu */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* content ki back lo undali */
+    pointer-events: none;
+    /* mouse events block cheyakudadhu */
 }
 
 
@@ -59,7 +63,7 @@ footer {
 }
 
 .logo-img {
-    max-width: clamp(220px, 25vw, 750px);
+    max-width: clamp(220px, 25vw, 290px);
     height: auto;
     margin-top: 1%;
 }
@@ -82,7 +86,7 @@ footer {
     }
 
     .logo-img {
-        max-width: 90% !important;
+        max-width: 60% !important;
 
     }
 
@@ -99,19 +103,25 @@ footer {
         max-width: 85%;
     }
 
-    .campus-image {}
+
 }
 
+@media (max-width: 768px) {
+    .campus-image {
+        width: 140px !important;
+        height: auto;
+    }
+}
 
 .campus-image {
-    width: clamp(200px, 30vw, 520px);
+    width: clamp(100px, 22vw, 520px);
     height: auto;
 }
 
 
 
 .theme-image {
-    width: clamp(280px, 100vw, 720px);
+    width: clamp(280px, 100vw, 420px);
     height: auto;
 }
 
@@ -137,7 +147,7 @@ footer {
     color: transparent;
     /* -webkit-text-fill-color: transparent; */
     /* -webkit-text-stroke: 1px #ff5e00; */
-    color: #d06c38;
+    color: #0D233B  ;
     transform: scale(1.06);
 }
 
@@ -152,11 +162,8 @@ footer {
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
-
-
-    color: #ffffff;
+    color: #f75600;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
-
     padding: 4px 10px;
     border-radius: 6px;
 
@@ -176,17 +183,17 @@ footer {
     width: auto;
     border-radius: 10px;
     padding: 20px;
-    border: #0b5299 solid 1px;
+    border: #065299 solid 1px;
 }
 
 .logintext {
-    color: #d06c38 !important;
+    color: #065299 !important;
 }
 
 
 .divider {
     height: 1px;
-    background-color: #ffffff;
+    background-color: #c7e4ff;
     margin: 10px 0;
 }
 
